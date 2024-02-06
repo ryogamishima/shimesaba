@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+  padding-top: 50px;
+}
+
+input {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  width: 80%; /* 入力欄の幅を画面に対して少し小さく */
+}
+
+.style-buttons {
+  margin: 20px 0;
+}
+
+
+.displayed-text-box {
+  margin: 20px auto; /* 上下の余白を保持しつつ、左右は自動で調整 */
+  padding: 10px;
+  border: 1px solid #ccc;
+  white-space: pre; /* preformatted text を保持 */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* シャドウを追加 */
+  width: 80%; /* プレビューの幅を画面に対して少し小さく */
+  max-width: 600px; /* 最大幅を設定して、大きい画面で見た時にも適切な幅になるように */
+}
+
+.copy-button {
+  margin-top: 20px;
+  /* ... その他のスタイルは変わらず ... */
+}
+
+/* ... その他のスタイルは変わらず ... */
+
+.style-buttons {
+  margin: 20px 0;
+}
+
+.style-button {
+  display: inline-block;
+  width: 200px; /* ボタンの幅を固定 */
+  height: 50px; /* ボタンの高さを固定 */
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-size: 10px; /* フォントサイズを調整 */
+  text-align: center;
+  vertical-align: middle;
+  line-height: 1.2;
+  background-color: #f8f8f8; /* ボタンの背景色 */
+  border: 1px solid #ccc; /* ボタンの境界線 */
+  border-radius: 5px; /* ボタンの角を丸く */
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.style-button:hover {
+  background-color: #e8e8e8; /* ホバー時の背景色 */
+}
+
+/* ... その他のスタイルは変わらず ... */
